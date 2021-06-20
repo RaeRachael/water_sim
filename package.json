@@ -1,0 +1,32 @@
+{
+  "name": "water_sim_js",
+  "version": "1.0.0",
+  "description": "basic water simulation",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaeRachael/water_sim.git"
+  },
+  "author": "Rae Ewins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaeRachael/water_sim/issues"
+  },
+  "homepage": "https://github.com/RaeRachael/water_sim#readme",
+  "jest": {
+    "preset": "ts-jest",
+    "testPathIgnorePatterns": [
+      "./dist"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23"
+  },
+  "dependencies": {
+    "jest": "^27.0.4",
+    "ts-jest": "^27.0.3"
+  }
+}
