@@ -9,5 +9,6 @@ export class cell {
   constructor(position: position, heights: cell_heights) {
     this.position = position
     this.cell_heights = heights
+    this.water_composition = {soil: 0, rock: 0}
   }
 }

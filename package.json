@@ -2,9 +2,11 @@
   "name": "water_sim_js",
   "version": "1.0.0",
   "description": "basic water simulation",
-  "main": "src/index.js",
+  "main": "dist/src/index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "build": "tsc && cp src/index.html dist/index.html",
+    "start": "npm run build && electron ."
   },
   "repository": {
     "type": "git",
@@ -23,10 +25,12 @@
     ]
   },
   "devDependencies": {
-    "@types/jest": "^26.0.23"
-  },
-  "dependencies": {
+    "@types/jest": "^26.0.23",
     "jest": "^27.0.4",
     "ts-jest": "^27.0.3"
+  },
+  "dependencies": {
+    "electron": "^13.1.2",
+    "typescript": "^4.3.4"
   }
 }
