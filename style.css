@@ -1,0 +1,17 @@
+
+body {
+  background-color: pink;
+}
+
+#simulation-box {
+  position: relative;
+  background-color: yellow;
+  height: 400px;
+  width: 600px;
+  display: grid;
+  grid-template-columns: repeat(60, 1fr);
+  grid-template-rows: repeat(40, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  padding: auto;
+}
